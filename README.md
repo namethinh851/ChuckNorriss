@@ -1,4 +1,4 @@
-# Chuck Norris Jokes Generator
+# Chuck Norris Jokes Generator (This app contains some mature contents).
 
 The purpose of this project is to learn how to use Alamofire as a tool to consume API for iPhones apps. Since https://api.chucknorris.io/ has the cleanest api and the easiest to consume, it becomes the best tool to practice. 
 
