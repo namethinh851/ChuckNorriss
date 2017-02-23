@@ -12,6 +12,9 @@
 		02B7EFF31D8BF07E00937A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B7EFF11D8BF07E00937A49 /* Main.storyboard */; };
 		02B7EFF51D8BF07F00937A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B7EFF41D8BF07F00937A49 /* Assets.xcassets */; };
 		02B7EFF81D8BF07F00937A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B7EFF61D8BF07F00937A49 /* LaunchScreen.storyboard */; };
+		02B7F0001D8C8A2A00937A49 /* changeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7EFFF1D8C8A2A00937A49 /* changeColor.swift */; };
+		02B7F0021D8C8A6300937A49 /* FunFactsSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B7F0011D8C8A6300937A49 /* FunFactsSource.swift */; };
+		18A9C7908024DABC76666ED1 /* Pods_ChuckNorriss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B2E05B994969CFE95B5A95 /* Pods_ChuckNorriss.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,11 @@
 		02B7EFF41D8BF07F00937A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02B7EFF71D8BF07F00937A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		02B7EFF91D8BF07F00937A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B7EFFF1D8C8A2A00937A49 /* changeColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = changeColor.swift; sourceTree = "<group>"; };
+		02B7F0011D8C8A6300937A49 /* FunFactsSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunFactsSource.swift; sourceTree = "<group>"; };
+		30908196390FDA9792284EA1 /* Pods-ChuckNorriss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorriss.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorriss/Pods-ChuckNorriss.release.xcconfig"; sourceTree = "<group>"; };
+		72B2E05B994969CFE95B5A95 /* Pods_ChuckNorriss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChuckNorriss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA4EE113794F4AE966A2F44 /* Pods-ChuckNorriss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuckNorriss.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuckNorriss/Pods-ChuckNorriss.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18A9C7908024DABC76666ED1 /* Pods_ChuckNorriss.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				02B7EFEC1D8BF07E00937A49 /* ChuckNorriss */,
 				02B7EFEB1D8BF07E00937A49 /* Products */,
+				92EA5B5DF6043F2AA783F77C /* Pods */,
+				E395A332B882BFBDAA93456D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +67,31 @@
 			children = (
 				02B7EFED1D8BF07E00937A49 /* AppDelegate.swift */,
 				02B7EFEF1D8BF07E00937A49 /* ViewController.swift */,
+				02B7F0011D8C8A6300937A49 /* FunFactsSource.swift */,
 				02B7EFF11D8BF07E00937A49 /* Main.storyboard */,
+				02B7EFFF1D8C8A2A00937A49 /* changeColor.swift */,
 				02B7EFF41D8BF07F00937A49 /* Assets.xcassets */,
 				02B7EFF61D8BF07F00937A49 /* LaunchScreen.storyboard */,
 				02B7EFF91D8BF07F00937A49 /* Info.plist */,
 			);
 			path = ChuckNorriss;
+			sourceTree = "<group>";
+		};
+		92EA5B5DF6043F2AA783F77C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBA4EE113794F4AE966A2F44 /* Pods-ChuckNorriss.debug.xcconfig */,
+				30908196390FDA9792284EA1 /* Pods-ChuckNorriss.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E395A332B882BFBDAA93456D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72B2E05B994969CFE95B5A95 /* Pods_ChuckNorriss.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02B7EFFC1D8BF07F00937A49 /* Build configuration list for PBXNativeTarget "ChuckNorriss" */;
 			buildPhases = (
+				109E70B456BD049EB6E1DC68 /* [CP] Check Pods Manifest.lock */,
 				02B7EFE61D8BF07E00937A49 /* Sources */,
 				02B7EFE71D8BF07E00937A49 /* Frameworks */,
 				02B7EFE81D8BF07E00937A49 /* Resources */,
+				B7D8814FE85171EFE1EA0279 /* [CP] Embed Pods Frameworks */,
+				0E7F684E260A7ECCC3AF5CBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,12 +165,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0E7F684E260A7ECCC3AF5CBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChuckNorriss/Pods-ChuckNorriss-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		109E70B456BD049EB6E1DC68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D8814FE85171EFE1EA0279 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChuckNorriss/Pods-ChuckNorriss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02B7EFE61D8BF07E00937A49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				02B7EFF01D8BF07E00937A49 /* ViewController.swift in Sources */,
+				02B7F0001D8C8A2A00937A49 /* changeColor.swift in Sources */,
+				02B7F0021D8C8A6300937A49 /* FunFactsSource.swift in Sources */,
 				02B7EFEE1D8BF07E00937A49 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +265,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -231,6 +315,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -257,10 +342,13 @@
 		};
 		02B7EFFD1D8BF07F00937A49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA4EE113794F4AE966A2F44 /* Pods-ChuckNorriss.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A6P9S26G6Y;
 				INFOPLIST_FILE = ChuckNorriss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ted.ChuckNorriss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +358,13 @@
 		};
 		02B7EFFE1D8BF07F00937A49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30908196390FDA9792284EA1 /* Pods-ChuckNorriss.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = A6P9S26G6Y;
 				INFOPLIST_FILE = ChuckNorriss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Ted.ChuckNorriss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +391,7 @@
 				02B7EFFE1D8BF07F00937A49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
