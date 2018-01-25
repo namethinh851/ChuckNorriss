@@ -57,6 +57,6 @@ struct Color {
 After further programming for the UI and setting the right configurations in Xcode, the final product is shown in the snapshots below
 If 'I wanna see Norris' is touched, another screen will pop up with different backgrounds colors.
 
-![chucknorris2](https://cloud.githubusercontent.com/assets/21114221/23252388/c30b3926-f954-11e6-9fbc-99cc1494e739.png =400x)
+![chucknorris2](https://cloud.githubusercontent.com/assets/21114221/23252388/c30b3926-f954-11e6-9fbc-99cc1494e739.png) {width: 200px;}
 
-![chucknorris1](https://cloud.githubusercontent.com/assets/21114221/23252455/f480c340-f954-11e6-97de-906b0a47f767.png =400x)
+![chucknorris1](https://cloud.githubusercontent.com/assets/21114221/23252455/f480c340-f954-11e6-97de-906b0a47f767.png)
